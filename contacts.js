@@ -6,7 +6,8 @@ const contactsPath = path.dirname('/db/contacts.json');
 
 
 function listContacts() {
-  
+  const data = fs.readFile(contactsPath);
+  const parsedData = JSON.parse(data);
 }
 
 function getContactById(contactId) {
