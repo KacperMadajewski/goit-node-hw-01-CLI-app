@@ -20,5 +20,9 @@
   "homepage": "https://github.com/KacperMadajewski/goit-node-hw-01-CLI-app#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0"
   }
 }
